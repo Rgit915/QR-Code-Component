@@ -1,3 +1,7 @@
+
+html{
+background-color: rgb(185, 229, 243);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,4 +9,40 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.card {
+  border-radius: 10px;
+  background: #fff;
+  margin: auto;
+  height: 50%;
+  width: 30%;
+}
+
+.card .image-box {
+  align-self: start;
+  border-radius: 15px;
+  box-shadow: 0px 2px 15px #fff;
+  justify-self: center;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+.card .card-body {
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+}
+
+/* Media Query for Mobile Responsive Design */
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .card {
+    width: 100%;
+  }
 }
