@@ -31,12 +31,16 @@ body {
   background: hsl(0, 0%, 100%);
   padding: 12px;
   text-align: center;
+}
 
+.card-body {
+  padding: 20px;
 }
 
 .card-title h1 {
   font-weight: 700;
   /* Bold */
+  font-size: 1.5em;
 }
 
 .card-title p {
